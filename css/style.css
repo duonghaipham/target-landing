@@ -1,0 +1,102 @@
+.root {
+  margin-top: 10px;
+}
+
+.header {
+  border: 2px solid #e2e2e2;
+  padding: 20px;
+}
+
+.header .brand {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.header .brand .name {
+  color: #cd2027;
+  font-size: 25px;
+}
+
+.header .template {
+  color: #bebebe;
+}
+
+.header .call-now {
+  font-size: 16px;
+  font-weight: 500;
+  color: #cd2027;
+}
+
+.cta {
+  border: 2px solid #e2e2e2;
+  border-top: none;
+  padding: 40px;
+}
+
+.cta .action .state {
+  margin-bottom: 30px;
+}
+
+.cta .action .description {
+  margin-bottom: 30px;
+}
+
+.cta .action .description .dummy-1 {
+  margin-bottom: 27px;
+}
+
+.cta .action .handler {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cta .action .handler .press {
+  border-style: none;
+  border-radius: 34px;
+  padding: 13px 34px;
+  box-shadow: 0px 0px 0px 5px rgba(242, 245, 246, 1);
+  -webkit-box-shadow: 0px 0px 0px 5px rgba(242, 245, 246, 1);
+  -moz-box-shadow: 0px 0px 0px 5px rgba(242, 245, 246, 1);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.cta .action .handler .or {
+  font-weight: 500;
+}
+
+.cta .action .handler .purchase {
+  border-bottom: 2px solid #e94f02;
+  background: #ff5400;
+  background: linear-gradient(90deg, #ff5400 0%, #f9b34b 100%);
+  background: -webkit-linear-gradient(90deg, #ff5400 0%, #f9b34b 100%);
+  background: -moz-linear-gradient(90deg, #ff5400 0%, #f9b34b 100%);
+  color: #ca4500;
+}
+
+.cta .action .handler .take-a-tour {
+  border-bottom: 2px solid #cbcbcb;
+  background: #dddddd;
+  background: linear-gradient(90deg, #dddddd 0%, #f2f2f2 100%);
+  background: -webkit-linear-gradient(90deg, #dddddd 0%, #f2f2f2 100%);
+  background: -moz-linear-gradient(90deg, #dddddd 0%, #f2f2f2 100%);
+  color: #838383;
+}
+
+.root .characteristics {
+  border: 2px solid #e2e2e2;
+  border-top: none;
+  padding: 60px 40px;
+}
+
+.root .characteristics .set {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.root .characteristics .content .description {
+  margin-top: 15px;
+}
