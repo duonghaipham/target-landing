@@ -1,5 +1,47 @@
+/* 
+  Style the buttons
+*/
+
+.handler .press {
+  border-style: none;
+  border-radius: 34px;
+  padding: 13px 34px;
+  box-shadow: 0px 0px 0px 5px rgba(242, 245, 246, 1);
+  -webkit-box-shadow: 0px 0px 0px 5px rgba(242, 245, 246, 1);
+  -moz-box-shadow: 0px 0px 0px 5px rgba(242, 245, 246, 1);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.handler .or {
+  font-weight: 500;
+}
+
+.handler .purchase {
+  border-bottom: 2px solid #e94f02;
+  background: #ff5400;
+  background: linear-gradient(90deg, #ff5400 0%, #f9b34b 100%);
+  background: -webkit-linear-gradient(90deg, #ff5400 0%, #f9b34b 100%);
+  background: -moz-linear-gradient(90deg, #ff5400 0%, #f9b34b 100%);
+  color: #ca4500;
+}
+
+.handler .take-a-tour {
+  border-bottom: 2px solid #cbcbcb;
+  background: #dddddd;
+  background: linear-gradient(90deg, #dddddd 0%, #f2f2f2 100%);
+  background: -webkit-linear-gradient(90deg, #dddddd 0%, #f2f2f2 100%);
+  background: -moz-linear-gradient(90deg, #dddddd 0%, #f2f2f2 100%);
+  color: #838383;
+}
+
+/* 
+  Start to style the landing page
+*/
+
 .root {
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .header {
@@ -46,43 +88,10 @@
   margin-bottom: 27px;
 }
 
-.cta .action .handler {
+.handler {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.cta .action .handler .press {
-  border-style: none;
-  border-radius: 34px;
-  padding: 13px 34px;
-  box-shadow: 0px 0px 0px 5px rgba(242, 245, 246, 1);
-  -webkit-box-shadow: 0px 0px 0px 5px rgba(242, 245, 246, 1);
-  -moz-box-shadow: 0px 0px 0px 5px rgba(242, 245, 246, 1);
-  font-size: 15px;
-  font-weight: 500;
-}
-
-.cta .action .handler .or {
-  font-weight: 500;
-}
-
-.cta .action .handler .purchase {
-  border-bottom: 2px solid #e94f02;
-  background: #ff5400;
-  background: linear-gradient(90deg, #ff5400 0%, #f9b34b 100%);
-  background: -webkit-linear-gradient(90deg, #ff5400 0%, #f9b34b 100%);
-  background: -moz-linear-gradient(90deg, #ff5400 0%, #f9b34b 100%);
-  color: #ca4500;
-}
-
-.cta .action .handler .take-a-tour {
-  border-bottom: 2px solid #cbcbcb;
-  background: #dddddd;
-  background: linear-gradient(90deg, #dddddd 0%, #f2f2f2 100%);
-  background: -webkit-linear-gradient(90deg, #dddddd 0%, #f2f2f2 100%);
-  background: -moz-linear-gradient(90deg, #dddddd 0%, #f2f2f2 100%);
-  color: #838383;
 }
 
 .root .characteristics {
@@ -99,4 +108,155 @@
 
 .root .characteristics .content .description {
   margin-top: 15px;
+}
+
+.root .feature {
+  border: 2px solid #e2e2e2;
+  border-top: none;
+  padding: 40px
+}
+
+.root .feature .heading {
+  margin-bottom: 20px;
+}
+
+.root .feature .list {
+  list-style-type: none;
+}
+
+.root .feature .list .title {
+  border-bottom: 1px solid #e3e3e3;
+  padding: 10px;
+}
+
+.root .feature .list .title:last-child {
+  border-bottom: none;
+}
+
+.root .feature .list .title .bi {
+  color: #8a8a8a;
+}
+
+.root .feature .list .title .main {
+  color: #dd8c5c;
+}
+
+.root .screenshots {
+  border: 2px solid #e2e2e2;
+  border-top: none;
+  padding: 40px;
+}
+
+.root .screenshots .heading {
+  margin-bottom: 30px;
+}
+
+.root .emphasis {
+  border: 2px solid #e2e2e2;
+  border-top: none;
+  padding: 40px;
+}
+
+.root .emphasis .heading {
+  margin-bottom: 20px;
+}
+
+.root .emphasis .feedback {
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.root .emphasis .feedback .comment {
+  position: relative;
+  border: 2px solid #e3e3e3;
+  padding: 35px 40px;
+  background-color: #fff;
+}
+
+.root .emphasis .feedback .comment::before,
+.root .emphasis .feedback .comment::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.root .emphasis .feedback .comment::before {
+  left: 30px;
+  bottom: -32px;
+  border: 15px solid;
+  border-color: #e3e3e3 #e3e3e3 transparent transparent;
+}
+
+.root .emphasis .feedback .comment::after {
+  left: 28px;
+  bottom: -27px;
+  border: 15px solid;
+  border-color: #fff #fff transparent transparent;
+}
+
+.root .emphasis .feedback .commenter {
+  position: absolute;
+  left: 100px;
+}
+
+.root .emphasis .feedback .commenter .where {
+  font-style: italic;
+}
+
+.root .footer {
+  border-bottom: 2px solid #3f3f3f;
+  padding: 20px;
+  background-color: #373737;
+  color: #878787;
+}
+
+.root .footer .section {
+
+}
+
+.root .footer .section .heading {
+  margin-bottom: 20px;
+  color: #cecece;
+}
+
+.root .footer .payment .list-method {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.root .footer .get-in-touch .list-contact {
+  list-style-type: none;
+  padding: 0;
+}
+
+.root .footer .get-in-touch .list-contact .info .bold {
+  font-weight: 500;
+}
+
+.root .copyright {
+  padding: 20px;
+  background-color: #222;
+  color: #878787;
+}
+
+.root .copyright .content {
+  margin: 0;
+}
+
+.root .copyright .list-sns {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.root .copyright .list-sns .sns {
+  border-radius: 50%;
+  padding: 3px 10px;
+  background-color: #454545;
+  font-size: 20px;
 }
